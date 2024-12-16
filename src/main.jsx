@@ -7,7 +7,7 @@ import  Characters from "./Pages/Characters/characters"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Characters />
+    <Home />
   </StrictMode>,
 )
 

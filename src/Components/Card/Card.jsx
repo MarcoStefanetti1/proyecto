@@ -1,9 +1,8 @@
 import { useState } from "react"
 
+
 export default function Card({personaje}) {
-    let [ocultar,setOcultar]=useState(true)//este estado lo creo para que me permita saber si tiene que ocultar o mostrar elementos
-    // console.log(personaje)
-   //el objeto personaje contiene la info de cada personaje que me dio la API
+    let [ocultar,setOcultar]=useState(true)
     return(
         <div className='d-flex gap-2 border rounded tarjeta border-3 bg-primary'>
             <div>
