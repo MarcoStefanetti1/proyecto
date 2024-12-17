@@ -3,12 +3,12 @@ import { createRoot } from 'react-dom/client'
 import  './index.css'
 import   Home  from "./Pages/Home/home"
 import  Characters from "./Pages/Characters/characters"
-import Contact from './pages/contact/Contact'
+import Contact from './Pages/Contact/Contact'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Characters />
+    <Contact />
   </StrictMode>,
 )
 

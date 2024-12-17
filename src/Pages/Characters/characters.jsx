@@ -9,9 +9,6 @@ export default function Characters() {
     let[dataCompleta,setDataCompleta]=useState([])
     let [filtrosAplicados,setFiltrosAplicados]=useState([])
     let[show,setShow]=useState(true)
-    
-  
-
 
     let filterName=["Character Alive","Character Dead","Female","Male","Origin Unknown"]
 

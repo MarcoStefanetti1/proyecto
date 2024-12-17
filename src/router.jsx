@@ -1,7 +1,7 @@
 import{BrowserRouter as Router,Routes,Route} from 'react-router';
-import Home from './pages/Home/home';
+import Home from './Pages/Home/home';
 import Characters from './Pages/Characters/characters';
-import Contact from './pages/Contact/Contact';
+import Contact from './Pages/Contact/Contact';
 import CharactersProvider from './context'//llamo al provider y lo aplico en Characters para que ese componente (pagina) y sus desendientes puedan utilizarlo y modificarlo en caso de ser necesario
 
 
