@@ -11,8 +11,8 @@ export default function home (){
                 <p className="text t-6 text-center">Also you can filter for diferent types of properties to find the character that you are looking for or send us a massage for any concern o sugestion.</p>
                 <h2 className="texto t-5 text-center">Lets go!</h2>
                 <div className="containerbutton d-flex justify-content-center">
-                <a alt="Go to Characters" class="boton b1 btn btn-secondary" href="/characters">Characters</a>
-                <a alt="Go to Contact" class="boton b2 btn btn-secondary" href="/contact">Contact</a>
+                <a alt="Go to Characters" className="boton b1 btn btn-secondary" href="/characters">Characters</a>
+                <a alt="Go to Contact" className="boton b2 btn btn-secondary" href="/contact">Contact</a>
 
             </div>
         </div>
